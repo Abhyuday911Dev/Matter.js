@@ -1,0 +1,53 @@
+/* @font-face {
+    font-family: gilroy;
+    src: url(./public/fonts/Gilroy-Regular.ttf)format("truetype");
+} */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(15, 18, 21);
+    scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+::-webkit-scrollbar-track {
+    background: #242424;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #020405;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #0e1011;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+.addbtn{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+#check{
+    height: 100%;
+    width: 100%;
+}

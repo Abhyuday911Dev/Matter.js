@@ -47,6 +47,14 @@ body {
     top: 20px;
 }
 
+.shoot{
+    display: inline-block;
+    position: absolute;
+    z-index: 5;
+    right: 20px;
+    bottom: 40px;
+}
+
 #check{
     height: 100%;
     width: 100%;
